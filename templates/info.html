@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for ('static',filename='style.css')}}">
+
+    <title>Ayo Lawan | Informasi</title>
+  </head>
+  <body>
+  
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Ayo<b>Lawan</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('index')}}">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="{{url_for('info')}}">Info Kesehatan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('profil')}}">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('kontak')}}">Kontak</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Awal Jumbotron -->
+    <section class="jumbotron-bg">
+      <div class="jumbotron warna-bg text-white">
+        <div class="container">
+          <h1 class="display-4">Artikel Kesehatan Terkini Untuk Anda</h1>
+        </div>
+      </div>
+    </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- Awal Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/1.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Info Sehat</h6>
+              <h6 class="card-text"><a href="{{url_for('berita1')}}" class="text-primary">#1 - Tips Menjaga Tubuh Agar Tidak Gampang Sakit</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/2.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Covid-19</h6>
+              <h6 class="card-text"><a href="{{url_for('berita2')}}" class="text-primary">#2 - Cari Tahu Apa Saja Gejala Covid-19</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/3.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Info Sehat</h6>
+              <h6 class="card-text"><a href="{{url_for('berita3')}}" class="text-primary">#3 - 4 Cara Menjaga Kesehatan </h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/4.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Food</h6>
+              <h6 class="card-text"><a href="{{url_for('berita4')}}" class="text-primary">#4 - Mengenal Khasiat Cengkih</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/5.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Covid-19</h6>
+              <h6 class="card-text"><a href="{{url_for('berita5')}}" class="text-primary">#5 - Data Covid-19 di Indonesia</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/6.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Covid-19</h6>
+              <h6 class="card-text"><a href="{{url_for('berita6')}}" class="text-primary">#6 - Kenali Tanda Kamu Terkena Covid-19</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/7.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Info Sehat</h6>
+              <h6 class="card-text"><a href="{{url_for('berita7')}}" class="text-primary">#7 - Cara Cuci Tangan Yang Baik dan Benar</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-2">
+          <div class="card">
+            <img src="{{url_for('static',filename='img/8.jpg')}}" class="card-img-top" alt="Gambar">
+            <div class="card-body">
+              <h6 class="card-title text-info">Info Sehat</h6>
+              <h6 class="card-text"><a href="{{url_for('berita8')}}" class="text-primary">#8 - Cara Menurunkan Kolestrol</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Akhir Content -->
+  
+  <!-- Awal pagination -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+  <!-- Akhir pagination -->
+
+  <!-- Awal Jumbotron 2 -->
+    
+
+  <!-- Awal Footer -->
+    <footer class="warna-bg">
+      <div class="text-white text-center pt-3 pb-3">
+        Universitas Amikom Purwokerto - BPP
+      </div>
+    </footer>
+  <!-- Akhir Footer -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
