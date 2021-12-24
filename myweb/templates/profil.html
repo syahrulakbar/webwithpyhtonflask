@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for ('static',filename='style.css')}}">
+
+    <title>Ayo Lawan | Profil</title>
+  </head>
+  <body>
+  
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Ayo<b>Lawan</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('index')}}">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('info')}}">Info Kesehatan</a>
+          </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="{{url_for('profil')}}">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('kontak')}}">Kontak</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Awal Jumbotron -->
+    <section class="jumbotron-bg">
+      <div class="jumbotron warna-bg text-white">
+        <div class="container">
+          <h1 class="display-4">Profil / Tentang Kami</h1>
+        </div>
+      </div>
+    </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- Awal Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mb-4"><!-- Awal col-8 -->
+          <div class="card">
+            <div class="card-body">
+              <h2>About Us</h2>
+              <br>
+
+              <div class="container">
+                
+                  
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="{{url_for ('static',filename='img/ali.jpeg')}}" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Umiatin Zakiatul Fahira</h5>
+                            <p class="card-text">20SA1203</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="{{url_for ('static',filename='img/ali.jpeg')}}" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Iqbal Dwi Setyanto</h5>
+                            <p class="card-text">20SA1259</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="{{url_for ('static',filename='img/ali.jpeg')}}" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Sigit Fathu Amrillah</h5>
+                            <p class="card-text">20SA1080</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="{{url_for ('static',filename='img/ali.jpeg')}}" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Khanif Aji Prasetyo</h5>
+                            <p class="card-text">20SA1121</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="{{url_for ('static',filename='img/ali.jpeg')}}" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Mochamad Syahrul Akbar</h5>
+                          <p class="card-text">20SA1183</p>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div><!-- Akhir col-8 -->
+        
+        <div class="col-md-4 mb-4"><!-- Awal col-4 -->
+          <div class="card mb-3">
+            <div class="card-body bg-light">
+              <h5>Ingin Selalu Update Tentang Kesehatan?</h5>
+              <p>Dapatkan inforamasi dan tips eksklusif dari AyoLawan untuk membantumu mengetahui informasi kesehatan</p>
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="*Nama">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="*Email">
+                </div>
+                <button class="btn btn-info">Ya, Saya Mau!</button>
+              </form>
+            </div>            
+          </div>
+
+          <!-- Awal tutorial terbaru -->
+          <h5>Artikel Kesehatan Terbaru</h5>
+          <div class="list-group">
+              <a href="{{url_for('berita1')}}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">#1 - Tips Menjaga Tubuh Agar Tidak Gampang Sakit</h5>
+                  
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Info Sehat</small>
+              </a>
+              <a href="{{url_for('berita2')}}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">#2 - Covid-19 dan Gejalanya</h5>
+                  
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Info Sehat</small>
+              </a>
+              <a href="{{url_for('berita3')}}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">#3 - 4 Cara Menjaga Kesehatan</h5>
+                  
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Info Sehat</small>
+              </a>
+            </div>
+          <!-- Akhir Tutorial terbaru -->
+
+        </div><!-- Akhir col-4 -->
+        
+      </div>
+    </div>
+  <!-- Akhir Content -->
+  
+
+  
+
+  <!-- Awal Footer -->
+    <footer class="warna-bg">
+      <div class="text-white text-center pt-3 pb-3">
+        Universitas Amikom Purwokerto - BPP
+      </div>
+    </footer>
+  <!-- Akhir Footer -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

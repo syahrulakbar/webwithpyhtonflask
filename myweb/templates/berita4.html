@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for ('static',filename='style.css')}}">
+
+    <title>Ayo Lawan | Artikel</title>
+  </head>
+  <body>
+  
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Ayo<b>Lawan</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('index')}}">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="{{url_for('info')}}">Info Kesehatan</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('profil')}}">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{url_for('kontak')}}">Kontak</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <br>
+
+  <!-- Awal Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mb-4"><!-- Awal col-8 -->
+          <div class="card">
+            <div class="card-body">
+              <h2>Cara Meningkatkan Imunitas Tubuh Agar Tidak Mudah Sakit</h2>
+              <br>
+              <div class="berita1"><p>Sistem imunitas atau daya tahan tubuh memiliki peran penting dalam menjaga kesehatan. 
+                Imunitas tubuh harus dijaga dengan baik agar tidak mudah terserang penyakit.</p></div>
+
+        
+                <p>
+                    Daya tahan tubuh atau sistem imun yang baik dapat melindungi kita sejak pertama kali kuman penyebab penyakit masuk ke dalam tubuh. Oleh karena itu, memiliki daya tahan tubuh yang kuat
+                    sangat penting untuk mencegah kita jatuh sakit, terutama di masa mewabahnya virus Corona seperti sekarang.
+                </p>
+                <img src="{{url_for ('static',filename='img/sehat.jpg')}}" class="rounded mx-auto d-block" alt="...">
+                <br>
+                <p>
+                    Ada berbagai cara yang bisa dilakukan untuk meningkatkan imunitas tubuh. Termasuk menerapkan pola hidup sehat, 
+                    menghindari stres, hingga mengonsumsi suplemen agar sistem kekebalan tubuh tetap prima.
+                </p>
+                <br>
+                <div class="berita1"><p>Menerapkan Pola Hidup Sehat</p></div>
+                <p>
+                Agar imunitas tubuh dapat bekerja dengan optimal sehingga tubuh tidak mudah terserang penyakit, penting untuk 
+                menerapkan pola hidup sehat. Berikut beberapa langkah yang bisa ditempuh untuk menjaga dan meningkatkan imunitas tubuh:
+            </p>
+            <p class="berita1">1. Perbanyak makan sayur dan buah</p>
+            <p>Untuk menjaga dan meningkatkan imunitas tubuh, Anda disarankan untuk memperbanyak konsumsi sayur dan buah. Penelitian menunjukkan, orang yang banyak mengonsumsi kedua jenis makanan tersebut, cenderung tidak mudah sakit. Hal ini karena vitamin dan mineral yang terkandung dalam sayur dan buah mampu memperkuat sistem kekebalan tubuh dalam melawan virus dan bakteri penyebab penyakit. Jenis 
+            buah yang baik untuk menjaga daya tahan tubuh adalah buah yang kaya akan vitamin dan mineral, misalnya guava.
+            </p>
+            <p class="berita1">2. Cukup Istirahat</p>
+            <p>Kurang tidur dapat menurunkan imunitas tubuh. Penting untuk mencukupi kebutuhan tidur sesuai dengan usia Anda. Umumnya, 
+                orang dewasa membutuhkan waktu tidur sekitar 7-8 jam, dan remaja membutuhkan waktu tidur sekitar 9-10 jam.
+            </p>
+            <p class="berita1">3. Hindari Stress</p>
+            <p>Stres yang tidak terkendali bisa meningkatkan produksi hormon kortisol. Dalam jangka panjang, peningkatan hormon kortisol dapat mengakibatkan penurunan fungsi kekebalan tubuh. 
+                Anda perlu mengelola stres dengan baik untuk menghindari penurunan fungsi kekebalan tubuh.
+            </p>
+            <p class="berita1">4. Rutin Berolahraga</p>
+            <p>Disarankan untuk rutin berolahraga selama 30 menit setiap hari, untuk meningkatkan sistem kekebalan tubuh dalam melawan infeksi. Salah satu olahraga yang murah dan mudah untuk dilakukan adalah berjalan kaki. 
+            Tak hanya di luar rumah, olahraga atau aktivitas fisik juga bisa dilakukan di dalam rumah.
+            </p>
+            <p class="berita1">5. Hindari Rokok dan Alkohol</p>
+            <p>Paparan asap rokok dan alkohol secara berlebih dapat 
+            merusak sistem kekebalan tubuh. Perokok memiliki risiko tinggi untuk mengalami infeksi paru, seperti bronkitis dan pneumonia. Sementara untuk perokok yang juga pecandu alkohol, risiko untuk terkena infeksi paru akan semakin besar.
+            </p>
+            <p>Menerapkan pola hidup sehat merupakan langkah terbaik dalam menjaga dan meningkatkan imunitas tubuh, termasuk ketika menjalani isolasi mandiri. Namun pada beberapa kondisi, konsumsi suplemen peningkat imunitas tubuh mungkin diperlukan. Disarankan untuk konsultasi ke dokter sebelum mengonsumsinya, terutama jika Anda memiliki kondisi medis tertentu. 
+            Dokter dapat merekomendasikan suplemen sesuai dengan kondisi kesehatan Anda, dengan dosis yang tepat.</p>
+            <small p>Diupload pada 10 Desember 2021</small>
+            </div>
+        </div>
+        </div><!-- Akhir col-8 -->
+        
+        <div class="col-md-4 mb-4"><!-- Awal col-4 -->
+          <div class="card mb-3">
+            <div class="card-body bg-light">
+              <h5>Ingin Selalu Update Tentang Kesehatan?</h5>
+              <p>Dapatkan inforamasi dan tips eksklusif dari AyoLawan untuk membantumu mengetahui informasi kesehatan</p>
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="*Nama">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="*Email">
+                </div>
+                <button class="btn btn-info">Ya, Saya Mau!</button>
+              </form>
+            </div>            
+          </div>
+
+          <!-- Awal tutorial terbaru -->
+          <h5>Artikel Kesehatan Terbaru</h5>
+          <div class="list-group">
+              <a href="{{url_for('berita5')}}" class="list-group-item list-group-item-action ">
+                <div class="d-flex w-100 justify-content-between">
+                    
+                  <h5 class="mb-1">#5 - Data Covid-19 di Indonesia</h5>
+                  
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Covid-19</small>
+              </a>
+              <a href="{{url_for('berita6')}}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">#6 - Kenali Tanda Kamu Terkena Covid-19</h5>
+                  
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Covid-19</small>
+              </a>
+              <a href="{{url_for('berita7')}}" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">#7 - Cara Cuci Tangan Yang Baik dan Benar</h5>
+                  
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Info Sehat</small>
+              </a>
+            </div>
+          <!-- Akhir Tutorial terbaru -->
+
+        </div><!-- Akhir col-4 -->
+        
+      </div>
+    </div>
+  <!-- Akhir Content -->
+  
+
+  
+
+  <!-- Awal Footer -->
+    <footer class="warna-bg">
+      <div class="text-white text-center pt-3 pb-3">
+        Universitas Amikom Purwokerto - BPP
+      </div>
+    </footer>
+  <!-- Akhir Footer -->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
